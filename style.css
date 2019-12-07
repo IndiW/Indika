@@ -1,0 +1,169 @@
+body{
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+body,html{
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1vw;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 3;
+}
+
+.navbar li{
+    font-size: 16px;
+    float: right;
+    
+}
+
+.navbar a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 6px 18px;
+    text-decoration: none;
+    
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+}
+
+.homepage_div{
+    padding-top: 4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+}
+
+
+.ai_img{
+    width: 60vh;
+    position: fixed;
+    bottom: 0px;
+    margin-right: 10px;
+    padding-left: 5vw;
+    z-index: -1;
+}
+#home_intro_div{
+    grid-column: 2/5;
+    height:70%;
+}
+
+#home_intro{
+    font-size: 11vmin;
+
+}
+
+#ai_home_div{
+
+}
+
+#home_dialogue_div{
+    grid-column: 2/5;
+    grid-row: 2;
+    font-size: 3vmax;
+    margin-left: 10vw;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+#home_d1{
+    margin: 0;
+}
+
+#home_d2{
+    margin: 0;
+}
+
+#home_dialogue_div a{
+    color: #423D3C;
+    text-decoration: none;
+}
+
+#home_dialogue_div a:hover{
+    text-decoration: underline;
+    color: black;
+} 
+
+.about_div{
+    padding-top:8vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.about_contents_div{
+    font-size: 2vmin;
+    width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+.indika_img_div{
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 3vh;
+    width: 50vmin;
+}
+
+.indika_img_caption_div{
+    grid-column: 2;
+    grid-row: 1;
+
+    height:50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.indika_img{
+    width: 100%;
+}
+
+.indika_img_caption{
+
+    width: 100%;
+    margin: 0 0;
+    text-align:center;
+}
+
+#ai_about_div{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.ai_about_img{
+    width: 60vh;
+    position: fixed;
+    bottom: 0px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.contact_div{
+    padding-top: 5vw;
+    text-align: center;
+}
+
+.contact_div a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact_div a:hover{
+    text-decoration: underline;
+    color: black;
+} 
