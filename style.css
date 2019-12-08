@@ -130,6 +130,7 @@ body,html{
 
 .indika_img{
     width: 100%;
+    box-shadow:-8px 6px 8px 1px #282828;
 }
 
 .indika_img_caption{
@@ -137,19 +138,20 @@ body,html{
     width: 100%;
     margin: 0 0;
     text-align:center;
+    color: #636161;
 }
 
 #ai_about_div{
-    width: 30%;
+    width: 27em;
     display: block;
     margin: 0 auto;
+    
 }
 
 .ai_about_img{
     width: 60vh;
     position: fixed;
     bottom: 0px;
-    margin: 0 auto;
     z-index: -1;
 }
 
@@ -167,3 +169,7 @@ body,html{
     text-decoration: underline;
     color: black;
 } 
+
+.contact_links_div{
+    font-size: 25px;
+}
