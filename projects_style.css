@@ -44,10 +44,17 @@ body{
 
 }
 
+.jobs_div{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
 .job_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; 
+    display: inline-grid;
+    grid-template-columns: 18em 18em;
+    grid-template-rows: 4em 20em 20em; 
+    row-gap: 2em;
     text-align: center;
     justify-items: center;
 }
@@ -56,22 +63,36 @@ body{
     grid-column: 1/3;
     grid-row: 1;
 }
-.vuereal{
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+#vuereal_card{
     grid-column: 1;
     grid-row: 2;
-    width: 15em;
 }
 
-.xiris{
+.xiris_card{
     grid-column: 2;
     grid-row: 2;
-    width: 8em;
 }
 
-.wijelaw{
+.wijelaw_card{
     grid-column: 1;
     grid-row: 3;
-    width: 13em;
 }
 
 .rover{
